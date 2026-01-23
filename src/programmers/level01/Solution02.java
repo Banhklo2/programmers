@@ -2,7 +2,7 @@ package programmers.level01;
 
 // 두 수의 곱
 public class Solution02 {
-    int solution(int num1, int num2) {
+    public int solution(int num1, int num2) {
         return num1 * num2;
     }
 

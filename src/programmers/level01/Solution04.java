@@ -2,7 +2,7 @@ package programmers.level01;
 
 // 나이 출력
 public class Solution04 {
-    int solution(int age) {
+    public int solution(int age) {
         return 2022 - age + 1;
     }
 

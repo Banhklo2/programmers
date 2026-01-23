@@ -2,7 +2,7 @@ package programmers.level01;
 
 // 두 수의 나눗셈
 public class Solution07 {
-    int solution(int num1, int num2) {
+    public int solution(int num1, int num2) {
         return (int)((double)num1/num2*1000);
     }
 

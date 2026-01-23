@@ -2,7 +2,7 @@ package programmers.level01;
 
 // 몫 구하기
 public class Solution03 {
-    int solution(int num1, int num2) {
+    public int solution(int num1, int num2) {
         return num1 / num2;
     }
 
