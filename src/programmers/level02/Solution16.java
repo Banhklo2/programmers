@@ -1,0 +1,24 @@
+package programmers.level02;
+
+import java.util.Arrays;
+
+public class Solution16 {
+
+    public long[] solution(int x, int n) {
+        long[] answer = new long[n];
+        long step = x;
+
+        for (int i = 0; i < n; i++) {
+            answer[i] = step * (i + 1);
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Solution16 s = new Solution16();
+
+        // 테스트
+        System.out.println(Arrays.toString(s.solution(2, 5)));
+    }
+}

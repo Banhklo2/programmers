@@ -1,7 +1,7 @@
 package programmers.level02;
 
 // 짝수와 홀수
-public class Solution01 {
+public class Solution11 {
     public String solution(int num) {
         if (num % 2 == 0) {
             return "Even";
@@ -11,7 +11,7 @@ public class Solution01 {
     }
 
     public static void main(String[] args) {
-        Solution01 s = new Solution01();
+        Solution11 s = new Solution11();
         System.out.println(s.solution(2)); // 테스트
     }
 }

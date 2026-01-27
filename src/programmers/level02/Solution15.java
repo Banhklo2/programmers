@@ -1,7 +1,7 @@
 package programmers.level02;
 
 // 나머지가 1이 되는 수 찾기
-public class Solution05 {
+public class Solution15 {
     public long[] solution(int x, int n) {
         long[] answer = new long[n];
 
@@ -13,7 +13,7 @@ public class Solution05 {
     }
 
     public static void main(String[] args) {
-        Solution05 s = new Solution05();
+        Solution15 s = new Solution15();
 
         System.out.println(s.solution(2, 5)); // 테스트
     }

@@ -1,20 +1,19 @@
 package programmers.level02;
 
-// 약수의 합
-public class Solution04 {
+// 자릿수 더하기
+public class Solution13 {
     public int solution(int n) {
         int answer = 0;
 
-        for (int i = 1; i <= n; i++) {
-            if (n % i == 0) {
-                answer += i;
-            }
+        while (n >0) {
+            answer += n % 10;
+            n /= 10;
         }
         return answer;
     }
 
     public static void main(String[] args) {
-        Solution04 s = new Solution04();
+        Solution13 s = new Solution13();
 
         System.out.println(s.solution(12)); // 테스트
     }
