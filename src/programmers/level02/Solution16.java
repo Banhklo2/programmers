@@ -18,7 +18,6 @@ public class Solution16 {
     public static void main(String[] args) {
         Solution16 s = new Solution16();
 
-        // 테스트
-        System.out.println(Arrays.toString(s.solution(2, 5)));
+        System.out.println(Arrays.toString(s.solution(2, 5))); // 테스트
     }
 }
