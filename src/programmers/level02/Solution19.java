@@ -1,5 +1,6 @@
 package programmers.level02;
 
+// 정수 제곱근 판별
 public class Solution19 {
     public long solution(long n) {
         long x = (long) Math.sqrt(n);

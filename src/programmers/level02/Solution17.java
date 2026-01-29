@@ -1,5 +1,6 @@
 package programmers.level02;
 
+// 자연수 뒤집어 배열로 만들기
 import java.util.Arrays;
 
 public class Solution17 {

@@ -1,5 +1,6 @@
 package programmers.level02;
 
+// x만큰 간격이 있는 n개의 숫자
 import java.util.Arrays;
 
 public class Solution16 {

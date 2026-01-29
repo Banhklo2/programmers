@@ -1,5 +1,6 @@
 package programmers.level02;
 
+// 정수 내림차순으로 배치하기
 public class Solution20 {
     public long solution(long n) {
         int[] count = new int[10];
