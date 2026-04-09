@@ -3,12 +3,12 @@ package programmers.level03;
 public class Solution59 {
     public int solution(int n, int m, int[] section) {
         int answer = 0;
-        int painted = 0; // 현재까지 칠해진 마지막 위치
+        int painted = 0;
 
         for (int s : section) {
             if (s > painted) {
                 answer++;
-                painted = s + m - 1; // 이번에 칠한 범위 끝
+                painted = s + m - 1;
             }
         }
 
